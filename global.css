@@ -66,6 +66,11 @@ footer.md-footer.layout4 .agent-wrap, .md-footer_notshare {
     margin-top: 18px !important;
 }
 
+/* Footer Address */
+.md-footer .detail-info .detail-addr {
+    padding-right: 0 !important;
+}
+
 /* Footer REIN MLS logo */
 .mls-declaimer-container-v2 .declaimer .mls-logo .logo {
   margin: unset;
