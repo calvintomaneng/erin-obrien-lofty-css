@@ -1,0 +1,72 @@
+/* Global Headers */
+h1, h2 {
+  letter-spacing: -0.40pt !important;
+  line-height: 1.2 !important;
+}
+.md-header.layout5 .icon-circle {
+    background-color: unset !important;
+}
+
+/* Home Hero IDX Search */
+.search-bar.layout11 .search-by-section .search-category .keyword-submit {
+  padding-bottom: 3px !important;
+}
+
+/* Footer */
+footer.md-footer.layout4 .agent-wrap, .md-footer_notshare {
+  display: none !important;
+}
+.md-footer.layout4 .bottom-content {
+  margin-top: 0 !important;
+}
+.md-footer.layout4 .bottom-content .mls-declaimer-container-v2 {
+  padding-top: 25px !important;
+}
+.md-footer.layout4 .menu-wrap .menu-item {
+  width: auto !important;
+}
+.md-footer.layout4 .menu-wrap {
+  column-gap: 40px !important;
+  justify-content: center;
+}
+
+/* Prevent icon flash on initial load */
+.social-container .share-container {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Reveal only after JS finishes fixing the icons */
+.social-container .share-container.js-social-ready {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transition: opacity 120ms ease;
+}
+
+/* Footer Socials */
+/* Prevent icon flash on initial load (footer only) */
+.footer-container .share-links-wrap .share-links {
+  opacity: 0 !important;
+  visibility: hidden !important;
+  pointer-events: none !important;
+}
+
+/* Reveal only after JS finishes fixing the icons (footer only) */
+.footer-container .share-links-wrap .share-links.js-footer-social-ready {
+  opacity: 1 !important;
+  visibility: visible !important;
+  pointer-events: auto !important;
+  transition: opacity 120ms ease;
+}
+
+/* Footer Submenu */
+.md-footer.layout4 .menu-wrap .menu-item .footer-submenu {
+    margin-top: 18px !important;
+}
+
+/* Footer REIN MLS logo */
+.mls-declaimer-container-v2 .declaimer .mls-logo .logo {
+  margin: unset;
+}
