@@ -223,3 +223,15 @@
     line-height: 1.2;
   }
 }
+@media (min-width: 1281px) {
+  .md-banner.layout4 .banner-content.revert .text-wrap {
+    max-width: 565px !important;
+  }
+  .md-banner.layout4 .banner-content .image-wrap {
+    max-width: 1128px !important;
+  }
+  .md-banner.layout4 .banner-content.revert {
+    max-width: 1512px !important;
+    margin: 0 auto !important;
+  }
+}
