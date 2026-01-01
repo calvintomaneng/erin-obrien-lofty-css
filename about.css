@@ -15,6 +15,9 @@
   max-width: 50%;
   margin: 0 auto;
 }
+.md-banner.layout6 .banner-content .text-wrap {
+  width: 50%;
+}
 
 /* Stats */
 .md-team-desc.layout1 .description .view-more-content {
