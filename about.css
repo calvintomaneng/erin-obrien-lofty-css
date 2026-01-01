@@ -1,24 +1,4 @@
-/* Hero Content Wrapper */
-.md-hero.layout11 .media-content-v2 .media-info {
-  max-width: 700px !important;
-}
-.md-hero.layout11 .banner {
-  align-items: center !important;
-  padding-top: 250px !important;
-  padding-bottom: 0 !important;
-}
-
-/* Hero IDX Search Headers */
-.search-group.layout11 .tab-header-ul {
-  text-transform: uppercase !important;
-  gap: 40px !important;
-}
-.search-bar.layout11 .search-by-section .search-category .keyword .search-input {
-  padding-bottom: 5px !important;
-  padding-left: 30px !important;
-}
-
-/* Meet Erin */
+/* Content Block Side By Side */
 @media (min-width: 801px) {
   .md-banner.layout6 .banner-content .image-wrap .img-box.first-img {
     width: 45% !important;
@@ -26,6 +6,14 @@
 }
 .md-banner.layout4 .banner-content .text-wrap::after {
   background-position: 50px 50px !important;
+}
+.md-banner.layout6.mg-bg {
+  max-width: 1680px;
+  margin: 0 auto;
+}
+.md-banner.layout6 .banner-content .image-wrap {
+  max-width: 50%;
+  margin: 0 auto;
 }
 
 /* Stats */
