@@ -1,12 +1,4 @@
 /* Content Block Side By Side */
-@media (min-width: 801px) {
-  .md-banner.layout6 .banner-content .image-wrap .img-box.first-img {
-    width: 45% !important;
-  }
-}
-.md-banner.layout4 .banner-content .text-wrap::after {
-  background-position: 50px 50px !important;
-}
 .md-banner.layout6.mg-bg {
   max-width: 1680px;
   margin: 0 auto;
