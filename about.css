@@ -218,3 +218,8 @@
     margin: 0 auto !important;
   }
 }
+
+/* Side by Side Image and Text */
+.md-cta.layout8 .text-content .title-box .site-subtitle {
+    max-height: 250px !important;
+}
