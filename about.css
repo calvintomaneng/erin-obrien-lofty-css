@@ -223,3 +223,41 @@
 .md-cta.layout8 .text-content .title-box .site-subtitle {
     max-height: 250px !important;
 }
+
+@media (max-width: 800px) {
+  .site-title {
+    font-size: 2rem !important;
+  }
+  .md-banner.layout6.mg-bg {
+    text-align: center !important;
+    text-align-last: center !important;
+  }
+  .md-banner.layout6.mg-bg a {
+    width: 250px !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .md-partner.layout2 .partners {
+    row-gap: 60px !important;
+  }
+  .md-content.layout5 .list .item {
+    padding: 60px 25px !important;
+  }
+  .md-content.column .column-info .description {
+    font-size: 16px !important;
+    max-width: 300px;
+    margin: 1rem auto !important;
+  }
+
+  .md-cta.layout8 .text-content {
+    padding: 40px !important;
+  }
+  .md-cta.layout11.mg-bg {
+    margin-bottom: 3rem !important;
+  }
+  .md-cta.layout8 .text-content .title-box .site-subtitle {
+    height: max-content !important;
+    min-height: max-content !important;
+    max-height: max-content !important;
+  }
+}
