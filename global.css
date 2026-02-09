@@ -180,5 +180,8 @@ footer .copyright {
   }
   .md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .cta-text {
     gap: 10px !important;
+    padding: 60px !important;
+    text-align: center !important;
+    line-height: 1.4 !important;
   }
 }
