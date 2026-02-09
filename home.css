@@ -246,3 +246,69 @@
     margin: 0 auto !important;
   }
 }
+
+.md-featured-area.layout9 .featured-area-div .featured-area-item {
+  filter: none !important;
+}
+/* No Lightbox */
+.pswp.pswp--open {
+  display: none !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box.column-1 .gallery-img-wrap:first-child {
+  width: 100% !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap:first-child .swiper-img {
+    height: 1000px !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box.column-1 .gallery-img-wrap:last-child {
+    width: 50% !important;
+}
+.search-bar .keyword-submit,
+.address-input.standard .right-box .submit-btn {
+  text-transform: uppercase !important;
+}
+.search-bar.layout11 .search-by-section .search-category .keyword .search-input,
+.search-group.layout11 .tab-body .tab-content .address-input.standard .left-box input{
+  padding-bottom: 5px !important;
+  padding-left: 30px !important;
+}
+
+@media (max-width: 800px) {
+  .md-banner.layout6 .banner-content .image-wrap,
+  .md-banner.layout6 .banner-content .text-wrap {
+    max-width: 90% !important;
+    width: 90% !important;
+    margin: 0 auto;
+  }
+  .md-banner.layout6 .banner-content .text-wrap p,
+  .md-banner.layout6 .banner-content .text-wrap h2,
+  .md-banner.layout6 .banner-content .text-wrap .site-p {
+    text-align: center !important;
+  }
+  .md-team-desc.layout1.mg-bg,
+  .md-banner.layout6.mg-bg.mobile,
+  .md-banner.layout4.mg-bg.mobile,
+  .md-banner.layout5.mg-bg.mobile {
+	padding: 60px 10px !important;
+  }
+  .md-banner.layout4 .banner-content .text-wrap {
+    padding: 40px !important;
+  }
+  .md-banner.layout5 .banner-content .text-wrap {
+  	padding: 40px !important;
+  }
+  .md-banner.layout4 .banner-content.revert .image-wrap {
+    top: -1px !important;
+    margin-bottom: 0px !important;
+  }
+  .md-cta.layout6 .content .card .site-card {
+    padding: 60px 30px !important;
+  }
+  .md-gallery.layout1.mg-bg {
+    padding: 20px 0 40px !important;
+  }
+  .md-cta.layout11.mg-bg {
+    margin-top: 30px !important;
+    padding-bottom: 80px !important;
+  }
+}
