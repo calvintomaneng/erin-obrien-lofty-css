@@ -335,7 +335,17 @@
   .md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .cta-text {
     gap: 10px !important;
   }
-  .md-hero.layout11.banner-with-search-group.mg-bg .site-title {
-    font-size: 2.75rem !important;
+  .site-title h2,
+  .md-gallery.layout1.mg-bg p {
+  	font-size: 1.75rem !important;
+  }
+  .md-hero.layout11.banner-with-search-group.mg-bg .site-title h2 {
+    font-size: 2.55rem !important;
+  }
+  .md-form.layout8.mg-bg .site-title h2 {
+    text-align: center !important;
+  }
+  .md-form.layout8.mg-bg {
+    padding: 60px 40px !important;
   }
 }
