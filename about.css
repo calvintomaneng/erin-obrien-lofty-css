@@ -240,9 +240,14 @@
   .md-partner.layout2 .partners {
     row-gap: 60px !important;
   }
+
+  .md-content.layout5 .list .item .column-info .sub-title {
+    font-size: 16px !important;
+  }
   .md-content.layout5 .list .item {
     padding: 60px 25px !important;
   }
+  
   .md-content.column .column-info .description {
     font-size: 16px !important;
     max-width: 300px;
