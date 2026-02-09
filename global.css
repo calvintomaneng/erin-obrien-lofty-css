@@ -184,4 +184,27 @@ footer .copyright {
     text-align: center !important;
     line-height: 1.4 !important;
   }
+    .md-gallery.layout1.mg-bg {
+    padding-bottom: 2rem !important;
+  }
+  .md-cta.layout1 .banner {
+    margin-top: 2.5rem !important;
+    min-height: 350px !important;
+  }
+  .md-cta.layout1 .banner .single-picture {
+    background-position-x: 75% !important;
+  }
+  body.blank .site-title h2,
+  body.blank .md-gallery.layout1.mg-bg p {
+    font-size: 2rem !important;
+  }
+  body.blank .md-hero.layout2.mg-bg .site-title h2 {
+    font-size: 2.5rem !important;
+  }
+  body.blank .market-report.snapshot .mg-title h2 {
+    font-size: 1.5rem !important;
+  }
+  body.blank .market-report.snapshot .mg-title h2 a {
+    font-size: 16px !important;
+  }
 }
