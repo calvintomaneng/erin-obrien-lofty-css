@@ -75,3 +75,110 @@ footer.md-footer.layout4 .agent-wrap, .md-footer_notshare {
 .mls-declaimer-container-v2 .declaimer .mls-logo .logo {
   margin: unset;
 }
+
+/* 404 Redirect */
+.unfind, .md-area-overview.layout1 .title-text .site-subtitle {
+  display: none !important;
+}
+
+/* Featured Areas Block */
+.featured-area-intro-v2 .md-featured-area.layout11 .featured-area-div .featured-area-item {
+  width: calc((100% - 20px) / 2) !important;
+}
+
+/* Location Grid */
+.md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .cta-text {
+  height: 100% !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .cta-text {
+  transition: all ease 0.5s !important;
+  top: 0% !important;
+  bottom: unset !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap:hover .cta-text {
+  transition: all ease 0.5s !important;
+  top: 0% !important;
+  transform: none !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .img-mask {
+  transition: all ease 0.5s !important;
+  background-color: rgba(25, 25, 25, 0.3) !important;
+}
+.md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap:hover .img-mask {
+  transition: all ease 0.5s !important;
+  background-color: rgba(25, 25, 25, 0.6) !important;
+}
+.site-title.gallery-title.f-col {
+  margin-top: 0 !important;
+}
+
+/* Location Pages Map */
+.md-search-result.broker.big-map {
+    width: var(--module-width, 1000px) !important;
+    margin: 0 auto !important;
+}
+
+/* All Caps Button Labels */
+.btn-item, .site-button {
+  text-transform: uppercase !important;
+  width: auto !important;
+  min-width: 200px !important;
+}
+
+/* Market Snapshot */
+.md-snapshot-search.template4 > section.md-listing-search.template4{display:none!important}
+.market-report.snapshot .mg-title h2{
+  display:flex!important;
+  align-items:center!important;
+  gap:12px!important;
+  margin-top:40px!important;
+}
+.market-report.snapshot .mg-title h2>a{
+  font-family:var(--mg-button-font);
+  font-style:normal!important;
+  font-size:16px!important;
+  font-weight:400!important;
+  padding:14px 32px!important;
+  border:0!important;
+  border-radius:0!important;
+  text-decoration:none!important;
+  line-height:1!important;
+  text-transform: uppercase !important;
+  background:var(--g-btn-background)!important;
+  color:var(--g-btn-color,#fff)!important; /* falls back to white */
+  opacity:1!important;
+}
+.market-report.snapshot .mg-title h2>a em{font-style:normal!important}
+.market-report.snapshot .mg-title h2>a:hover{
+  filter:brightness(.95);
+}
+
+/* Copyright */
+footer .copyright {
+  display: none !important;
+}
+
+/* Grid Locations on Mobile */
+@media (max-width: 800px) {
+  .md-gallery.layout1 .gallery-swiper .swiper-box.column-1 .gallery-img-wrap:first-child,
+  .md-gallery.layout1 .gallery-swiper .swiper-box.column-1 .gallery-img-wrap:last-child {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-right: 5px !important;
+  }
+  .md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap:first-child .swiper-img,
+  .md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap:last-child .swiper-img {
+    height: 300px !important;
+    
+  }
+  .md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .cta-text {
+    font-size: 20px !important;
+  }
+  .md-gallery.layout1.mg-bg .mg-container {
+    width: 100% !important;
+    margin-left: 14px !important;
+  }
+  .md-gallery.layout1 .gallery-swiper .swiper-box .gallery-img-wrap .cta-text {
+    gap: 10px !important;
+  }
+}
